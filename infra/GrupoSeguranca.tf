@@ -12,7 +12,7 @@ resource "aws_security_group_rule" "tcp_alb" {
   security_group_id = aws_security_group.alb.id
 }
 
-resource "aws_security_group_rule" "tcp_alb" {
+resource "aws_security_group_rule" "saida_alb" {
   type              = "egress"
   from_port         = 0
   to_port           = 0
