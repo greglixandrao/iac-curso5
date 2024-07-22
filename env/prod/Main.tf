@@ -1,11 +1,6 @@
 module "prod" {
     source = "../../infra"
 
-    nome_repositorio = "producao"
-    cargoIAM = "producao"
-    ambiante = "producao"
-}
-
-output "IP_alb" {
-  value = module.prod.IP
+    repository_name = "production"
+    cluster_name = "production"
 }

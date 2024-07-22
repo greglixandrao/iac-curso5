@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "terraform-state-alura"
+    bucket = "terraform-infra-container"
     key    = "Prod/terraform.tfstate"
     region = "us-west-2"
   }
